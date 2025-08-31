@@ -21,6 +21,8 @@ hr{
     margin: 1px auto;
 }
 
+/*Input*/
+
 input{
     margin: 10px 0px;
     background-color: transparent;
@@ -41,7 +43,7 @@ input:focus{
     width: 32px;
     height: 20px;
     padding: 5px 2px;
-    margin: 6px 0px;
+    margin: 6px 10px;
 }
 .iniziativa input{
     margin: 10px 15px 0 15px;
@@ -49,9 +51,13 @@ input:focus{
     padding: 0;
 }
 .punti_vita input{
+    text-align: center;
+
     width: 40px;
     margin: 2px;
+    border-bottom: 1px solid black;
 }
+
 #scheda_giocatore{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -61,7 +67,7 @@ input:focus{
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 4px 6px 11px 1px black;
-    width: 60%;
+    width: 80%;
     height: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -82,14 +88,16 @@ input:focus{
 .abilita{
     font-size: 12px;
     padding: 2px;
-    grid-row: 2 span;
+    grid-row: 3 span;
     text-align: center;
 }
 .abilita div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+.abilita hr{
+    margin: 3px 0;
 }
 
 /*Tab Iniziativa*/
@@ -148,8 +156,9 @@ input:focus{
     max-width: 100%;
 }
 
+/*Altro*/
 .altro{
-    grid-row: 2 span;
+    grid-row: 3 span;
 }
 .caratteristiche{
     grid-row: 5 span;

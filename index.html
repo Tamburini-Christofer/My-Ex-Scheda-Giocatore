@@ -48,22 +48,24 @@
                     <span>Carisma</span>
                 </div>
                 <hr>
-                <span>Tiri Salvezza</span>
             </div>
 
-            <div class="tab iniziativa">
-                <div class="col_iniziativa">
-                    <input type="number" id="classe_armatura" placeholder="0">
-                    <span>Classe armatura</span>
+            <div class="tab punti_vita">
+                <span>Hit Points</span>
+                <hr>
+
+                <div>
+                    <span>Massimo</span> <input type="number" placeholder="0" id="punti_vita_massimi">
                 </div>
-                <div class="col_iniziativa">
-                    <input type="number" id="iniziativa" placeholder="0">
-                    <span>Iniziativa</span>
+                <div>
+                    <span>Correnti</span> <input type="number" placeholder="0" id="punti_vita_correnti">
                 </div>
-                <div class="col_iniziativa">
-                    <input type="number" id="velocita" placeholder="0">
-                    <span>Velocità</span>
+                <div>
+                    <span>Temporanei</span> <input type="number" placeholder="0" id="punti_vita_temporanei">
                 </div>
+                <br>
+                <hr>
+                <span>Tiri Salvezza</span>
             </div>
 
             <div class="tab razza">
@@ -166,24 +168,33 @@
                 <input type="text" placeholder="Nome personaggio" id="nome_personaggio">
             </div>
 
-            <div class="tab punti_vita">
-                <span>Hit Points</span>
-                <hr>
 
-                <div>
-                    <span>Massimo</span> <input type="number" placeholder="0" id="punti_vita_massimi">
+            <div class="tab iniziativa">
+                <div class="col_iniziativa">
+                    <input type="number" id="classe_armatura" placeholder="0">
+                    <span>Classe armatura</span>
                 </div>
-                   <div>
-                    <span>Correnti</span> <input type="number" placeholder="0" id="punti_vita_correnti">
+                <div class="col_iniziativa">
+                    <input type="number" id="iniziativa" placeholder="0">
+                    <span>Iniziativa</span>
                 </div>
-                   <div>
-                    <span>Temporanei</span> <input type="number" placeholder="0" id="punti_vita_temporanei">
+                <div class="col_iniziativa">
+                    <input type="number" id="velocita" placeholder="0">
+                    <span>Velocità</span>
                 </div>
             </div>
+
             <div class="tab immagine">
                 <img src="img/Dragon.png" alt="Immagine di un drago">
             </div>
-            <div class="tab altro"></div>
+
+            <div class="tab altro">
+                <input type="text" placeholder="Tratti personali" id="tratti personali">
+                <input type="text" placeholder="Obbligazioni" id="obbligazioni">
+                <input type="text" placeholder="Vizi" id="vizi">
+                <input type="text" placeholder="Ideali" id="ideali">
+            </div>
+
             <div class="tab caratteristiche"></div>
             <div class="tab tiri_salvezza"></div>
             <div class="tab abilita_gioco"></div>
