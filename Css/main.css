@@ -312,6 +312,7 @@ input:focus{
 
 /*Logo Immagine*/
 .logo{
+    padding: 0;
     border: 0;
     grid-column: 5 span;
 }
