@@ -76,9 +76,9 @@
 
                 <div>
                     <form action="#">
-                        <label for="razza">Razza</label>
-                        <select name="Razza" id="razza">
-                            <option value=""> </option>
+                        <label id="razza">Razza</label>
+                        <select name="Razza" id="razza_select">
+                            <option value="first">---</option>
                             <option value="Dragonide">Dragonide</option>
                             <option value="Elfo">Elfo</option>
                             <option value="Gnomo">Gnomo</option>
@@ -92,10 +92,10 @@
                     </form>
                 </div>
                 <div>
-                    <form action="">
-                        <label for="Classe">Classe</label>
+                    <form action="#">
+                        <label id="Classe">Classe</label>
                         <select name="classe" id="classe">
-                            <option value=""> </option>
+                            <option value="first">---</option>
                             <option value="Barbaro">Barbaro</option>
                             <option value="Bardo">Bardo</option>
                             <option value="Chierico">Chierico</option>
@@ -114,9 +114,9 @@
 
                 <div>
                     <form action="#">
-                        <label for="Allineamento">Allineamento</label>
-                        <select name="allineamento" id="allineamento">
-                            <option value=""> </option>
+                        <label id="Allineamento">Allineamento</label>
+                        <select name="allineamento" id="_select">
+                            <option value="first">---</option>
                             <optgroup label="Buono">
                                 <option value="legale-buono">Legale Buono</option>
                                 <option value="neutrale-buono">Neutrale Buono</option>
@@ -141,9 +141,9 @@
 
                 <div>
                     <form action="#">
-                        <label for="Background">Background</label>
+                        <label id="Background">Background</label>
                         <select name="background" id="background">
-                            <option value=""> </option>
+                            <option value="first">---</option>
                             <option value="acolyte">Accolito</option>
                             <option value="charlatan">Ciarlatano</option>
                             <option value="criminal-spy">Criminale / Spia</option>
@@ -192,13 +192,13 @@
             </div>
 
             <div class="tab altro">
-                <textarea type="text" placeholder="Tratti personali" id="tratti personali" rows="4"></textarea>
+                <textarea placeholder="Tratti personali" id="tratti_personali" rows="4"></textarea>
                 <hr>
-                <textarea type="text" placeholder="Obbligazioni" id="obbligazioni" rows="4"></textarea>
+                <textarea placeholder="Obbligazioni" id="obbligazioni" rows="4"></textarea>
                 <hr>
-                <textarea type="text" placeholder="Vizi" id="vizi" rows="4"></textarea>
+                <textarea placeholder="Vizi" id="vizi" rows="4"></textarea>
                 <hr>
-                <textarea type="text" placeholder="Ideali" id="ideali" rows="4"></textarea>
+                <textarea placeholder="Ideali" id="ideali" rows="4"></textarea>
             </div>
 
             <div class="tab caratteristiche">
@@ -387,7 +387,7 @@
             </div>
 
             <div class="tab tratti">
-                <textarea type="text" placeholder="Tratti" id="tratti" rows="10"></textarea>
+                <textarea placeholder="Tratti" id="tratti" rows="10"></textarea>
             </div>
 
             <div class="tab note">
@@ -423,14 +423,14 @@
                 </div>
 
                 <div>
-                    <input type="">
+                    <input type="text">
                     <span>Bonus Profezia</span>
                 </div>
 
             </div>
 
             <div class="tab aspetto">
-                
+
                 <div>
                     <input type="number" id="eta" placeholder="Età">
                     <input type="number" id="altezza" placeholder="Altezza">
