@@ -30,7 +30,6 @@ body{
     padding: 10px;
     border: 2px solid black;
 }
-
 /*Griglia*/
 .abilita{
     grid-row: 3 span;
