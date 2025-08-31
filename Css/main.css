@@ -21,6 +21,10 @@ hr{
     margin: 1px auto;
 }
 
+textarea{
+    border: 0;
+}
+
 /*Input*/
 
 input{
@@ -231,6 +235,7 @@ input:focus{
     grid-row: 2 span;
 }
 .note{
+    font-size: 10px;
     grid-column: 2 span;
     grid-row: 2 span;
 }
