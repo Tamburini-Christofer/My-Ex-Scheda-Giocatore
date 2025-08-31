@@ -52,10 +52,20 @@ input:focus{
 }
 .punti_vita input{
     text-align: center;
-
     width: 40px;
     margin: 2px;
     border-bottom: 1px solid black;
+}
+.caratteristiche input{
+    margin: 10px 2px;
+    width: 35px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    text-align: right;
+}
+.caratteristiche input:last-child{
+    background-color: rgb(230, 168, 168);
 }
 
 #scheda_giocatore{
@@ -68,7 +78,7 @@ input:focus{
     border-radius: 20px;
     box-shadow: 4px 6px 11px 1px black;
     width: 80%;
-    height: 800px;
+    height: 1200px;
     margin: 20px auto;
     padding: 20px;
 }
@@ -161,8 +171,17 @@ input:focus{
     grid-row: 3 span;
 }
 .caratteristiche{
-    grid-row: 5 span;
+    display: flex;
+    flex-direction: column;
+    grid-row: 4 span;
 }
+.caratteristiche div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
 .tiri_salvezza{
     grid-column: 2 span;
 }
