@@ -5,19 +5,56 @@
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    background-image: url(../img/board-wood-vintage-texture-plank-floor-835792-pxhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
     color: black;
-    background-color: #E6D4B0;
 }
 
+hr{
+    height: 1px;
+    background-color: black;
+    border: 0px;
+    margin: 1px auto;
+}
+
+input{
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 0px;
+}
+input:active{
+    border: 1px solid rgb(255, 150, 150);
+}
+input:focus{
+    background-color: rgb(254, 192, 192);
+}
+.nome input,
+.nome_giocatore input{
+    text-align: center;
+}
+.abilita input{
+    border: 1px solid black;
+    width: 32px;
+    height: 20px;
+    padding: 5px 2px;
+    margin: 6px 0px;
+}
+.iniziativa input{
+    margin: 10px 15px;
+    width: 40px;
+    padding: 0;
+}
 #scheda_giocatore{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    gap: 10px;
+    gap: 8px;
 
-    background-color: #DDC09E;
+    background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 4px 6px 11px 1px black;
     width: 60%;
@@ -31,14 +68,48 @@ body{
     border: 2px solid black;
 }
 /*Griglia*/
-.abilita{
-    grid-row: 3 span;
+
+/*Tab Nome*/
+.nome{
+    text-align: center;
 }
+
+/*Tab Abilità*/
+.abilita{
+    font-size: 12px;
+    padding: 2px;
+    grid-row: 3 span;
+    text-align: center;
+}
+.abilita div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Tab Iniziativa*/
 .iniziativa{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    padding: 0;
+    border: 0;
     grid-column: 2 span;
 }
+.col_iniziativa{
+    border: 2px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+/*Tab Razza*/
 .razza{
     grid-column: 2 span;
+}
+.nome_giocatore{
+    text-align: center;
 }
 .punti_vita{
     grid-column: 2 span;
