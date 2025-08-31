@@ -40,15 +40,19 @@ input:focus{
 }
 .abilita input{
     border: 1px solid black;
-    width: 32px;
+    width: 40px;
     height: 20px;
     padding: 5px 2px;
     margin: 6px 10px;
+    text-align: center;
 }
 .iniziativa input{
     margin: 10px 15px 0 15px;
-    width: 40px;
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgb(252, 78, 78);
     padding: 0;
+    text-align: right;
 }
 .punti_vita input{
     text-align: center;
@@ -61,11 +65,22 @@ input:focus{
     width: 35px;
     height: 30px;
     border: 1px solid grey;
-    border-radius: 100%;
     text-align: right;
 }
 .caratteristiche input:last-child{
     background-color: rgb(230, 168, 168);
+    border-radius: 100%;
+}
+.tiri_salvezza input{
+    width: 35px;
+}
+.abilita_gioco input{
+    margin: 0 2px;
+    cursor: pointer;
+}
+.abilita_gioco input[type="text"]{
+    width: 40%;
+    border-bottom: 2px solid black;
 }
 
 #scheda_giocatore{
@@ -104,7 +119,8 @@ input:focus{
 .abilita div {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    
+    margin: 12px 0;
 }
 .abilita hr{
     margin: 3px 0;
@@ -170,6 +186,8 @@ input:focus{
 .altro{
     grid-row: 3 span;
 }
+
+/*Caratteristiche*/
 .caratteristiche{
     display: flex;
     flex-direction: column;
@@ -180,15 +198,31 @@ input:focus{
     flex-direction: row;
     justify-content: end;
     align-items: center;
+    margin: 5px 0;
 }
 
+/*Tiri Salvezza*/
 .tiri_salvezza{
-    grid-column: 2 span;
+    grid-column: 1 span;
 }
+.tiri_salvezza i{
+    color: red;
+    margin: 5px 2px ;
+}
+.skull i{
+    color: rgb(95, 95, 95);
+    margin: 5px 2px ;
+}
+
+/*Abilità di gioco*/
 .abilita_gioco{
     grid-row: 4 span;
     grid-column: 2 span;
 }
+.abilita_gioco div{
+    margin: 5px 0;
+}
+
 .armi{
     grid-row: 2 span;
     grid-column: 2 span;
