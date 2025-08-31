@@ -91,6 +91,26 @@ input:focus{
     width: 30%;
     border-bottom: 2px solid black;
 }
+.aspetto input{
+    border: 2px solid black;
+    width: 70px;
+    margin: 5px 10px 5px 0px;
+}
+.aspetto div input[type="color"]{
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 100%;
+    width: 30px;
+}
+.ispirazione div input{
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+}
+.equipaggiamento input{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
 
 #scheda_giocatore{
     display: grid;
@@ -266,30 +286,28 @@ input:focus{
     max-width:100%;
 }
 
-
 /*Equpaggiamento*/
 .equipaggiamento{
     text-align: center;
     grid-row: 4 span;
 }
-.equipaggiamento input{
-    text-align: center;
-    border-bottom: 2px solid black;
-}
 
-
-.immagine_3{
-
-}
+/*Ispirazione*/
 .ispirazione{
     grid-column: 2 span;
 }
-.immagine_4{
-    grid-column: 2 span;
+
+/*Aspetto personaggio*/
+.aspetto{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    grid-column: 3 span;
     grid-row: 2 span;
 }
+/*Linguaggio*/
 .linguaggio{
-    grid-column: 3 span;
+    grid-column: 2 span;
 }
 
 /*Logo Immagine*/
