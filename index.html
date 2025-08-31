@@ -16,33 +16,34 @@
                 <hr>
                 <input type="text" placeholder="Nome giocatore" id="nome">
             </div>
+
             <div class="tab abilita">
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="forza">
                     <span>Forza</span>
                 </div>
                 <hr>
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="destrezza">
                     <span>Destrezza</span>
                 </div>
                 <hr>
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="costituzione">
                     <span>Costituzione</span>
                 </div>
                 <hr>
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="intelligenza">
                     <span>Intelligenza</span>
                 </div>
                 <hr>
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="saggezza">
                     <span>Saggezza</span>
                 </div>
                 <hr>
-                <div> 
+                <div>
                     <input type="number" placeholder="0" id="carisma">
                     <span>Carisma</span>
                 </div>
@@ -64,12 +65,107 @@
                     <span>Velocità</span>
                 </div>
             </div>
-            <div class="tab razza"></div>
+
+            <div class="tab razza">
+
+                <div>
+                    <form action="#">
+                        <label for="razza">Razza</label>
+                        <select name="Razza" id="razza">
+                            <option value=""> </option>
+                            <option value="Dragonide">Dragonide</option>
+                            <option value="Elfo">Elfo</option>
+                            <option value="Gnomo">Gnomo</option>
+                            <option value="Halfling">Halfling</option>
+                            <option value="Mezzelfo">Mezzelfo</option>
+                            <option value="Mezzorco">Mezzorco</option>
+                            <option value="Nano">Nano</option>
+                            <option value="Tiefling">Tiefling</option>
+                            <option value="Umano">Umano</option>
+                        </select>
+                    </form>
+                </div>
+                <div>
+                    <form action="">
+                        <label for="Classe">Classe</label>
+                        <select name="classe" id="classe">
+                            <option value=""> </option>
+                            <option value="Barbaro">Barbaro</option>
+                            <option value="Bardo">Bardo</option>
+                            <option value="Chierico">Chierico</option>
+                            <option value="Druido">Druido</option>
+                            <option value="Guerriero">Guerriero</option>
+                            <option value="Monaco">Monaco</option>
+                            <option value="Paladino">Paladino</option>
+                            <option value="Ranger">Ranger</option>
+                            <option value="Ladro">Ladro</option>
+                            <option value="Stregone">Stregone</option>
+                            <option value="Warlock">Warlock</option>
+                            <option value="Mago">Mago</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div>
+                    <form action="#">
+                        <label for="Allineamento">Allineamento</label>
+                        <select name="allineamento" id="allineamento">
+                            <option value=""> </option>
+                            <optgroup label="Buono">
+                                <option value="legale-buono">Legale Buono</option>
+                                <option value="neutrale-buono">Neutrale Buono</option>
+                                <option value="caotico-buono">Caotico Buono</option>
+                            </optgroup>
+
+                            <optgroup label="Neutrale">
+                                <option value="legale-neutrale">Legale Neutrale</option>
+                                <option value="neutrale-puro">Neutrale Puro</option>
+                                <option value="caotico-neutrale">Caotico Neutrale</option>
+                            </optgroup>
+
+                            <optgroup label="Malvagio">
+                                <option value="legale-malvagio">Legale Malvagio</option>
+                                <option value="neutrale-malvagio">Neutrale Malvagio</option>
+                                <option value="caotico-malvagio">Caotico Malvagio</option>
+                            </optgroup>
+
+                        </select>
+                    </form>
+                </div>
+
+                <div>
+                    <form action="#">
+                        <label for="Background">Background</label>
+                        <select name="background" id="background">
+                            <option value=""> </option>
+                            <option value="acolyte">Accolito</option>
+                            <option value="charlatan">Ciarlatano</option>
+                            <option value="criminal-spy">Criminale / Spia</option>
+                            <option value="entertainer">Intrattenitore</option>
+                            <option value="folk-hero">Eroe Popolare</option>
+                            <option value="guild-artisan-merchant">Artigiano di Gilda / Mercante</option>
+                            <option value="hermit">Eremita</option>
+                            <option value="noble">Nobile</option>
+                            <option value="outlander">Fuorilegge (Outlander)</option>
+                            <option value="sage">Saggio</option>
+                            <option value="sailor-pirate">Marinaio / Pirata</option>
+                            <option value="soldier">Soldato</option>
+                            <option value="urchin">Orfano</option>
+                        </select>
+                    </form>
+                </div>
+                <hr>
+                <span>XP</span>
+                <input type="number" id="xp" placeholder="0">
+                <div></div>
+            </div>
+
             <div class="tab nome_giocatore">
                 <span>Nome personaggio</span>
                 <hr>
                 <input type="text" placeholder="Nome personaggio" id="nome_personaggio">
             </div>
+
             <div class="tab punti_vita"></div>
             <div class="tab immagine"></div>
             <div class="tab altro"></div>
