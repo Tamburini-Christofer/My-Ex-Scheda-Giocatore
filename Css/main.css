@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #E6D4B0;
+}
+
+#scheda_giocatore{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 10px;
+
+    background-color: #DDC09E;
+    border-radius: 20px;
+    box-shadow: 4px 6px 11px 1px black;
+    width: 60%;
+    height: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.tab{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/*Griglia*/
+.abilita{
+    grid-row: 3 span;
+}
+.iniziativa{
+    grid-column: 2 span;
+}
+.razza{
+    grid-column: 2 span;
+}
+.punti_vita{
+    grid-column: 2 span;
+}
+.immagine{
+    grid-row: 2 span;
+}
+.altro{
+    grid-row: 2 span;
+}
+.caratteristiche{
+    grid-row: 5 span;
+}
+.tiri_salvezza{
+    grid-column: 2 span;
+}
+.abilita_gioco{
+    grid-row: 4 span;
+    grid-column: 2 span;
+}
+.armi{
+    grid-row: 2 span;
+    grid-column: 2 span;
+}
+.attrezzatura{
+    grid-row: 2 span;
+}
+.note{
+    grid-column: 2 span;
+    grid-row: 2 span;
+}
+.immagine_2{
+    grid-row:  1 span;
+}
+.equipaggiamento{
+    grid-row: 4 span;
+}
+.immagine_3{
+
+}
+.ispirazione{
+    grid-column: 2 span;
+}
+.immagine_4{
+    grid-column: 2 span;
+    grid-row: 2 span;
+}
+.linguaggio{
+    grid-column: 3 span;
+}
