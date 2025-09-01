@@ -116,21 +116,22 @@
                 <div>
                     <form action="#">
                         <label id="Allineamento">Allineamento</label>
-                        <select name="allineamento" id="_select">
+                        <select name="allineamento" id="allineamento_select">
                             <option value="first">---</option>
-                            <optgroup label="Buono">
+                            
+                            <optgroup label="Buono" class="al_buono">
                                 <option value="legale-buono">Legale Buono</option>
                                 <option value="neutrale-buono">Neutrale Buono</option>
                                 <option value="caotico-buono">Caotico Buono</option>
                             </optgroup>
 
-                            <optgroup label="Neutrale">
+                            <optgroup label="Neutrale" class="al_neutrale">
                                 <option value="legale-neutrale">Legale Neutrale</option>
                                 <option value="neutrale-puro">Neutrale Puro</option>
                                 <option value="caotico-neutrale">Caotico Neutrale</option>
                             </optgroup>
 
-                            <optgroup label="Malvagio">
+                            <optgroup label="Malvagio" class="al_malvagio">
                                 <option value="legale-malvagio">Legale Malvagio</option>
                                 <option value="neutrale-malvagio">Neutrale Malvagio</option>
                                 <option value="caotico-malvagio">Caotico Malvagio</option>
@@ -499,8 +500,13 @@
                 <img src="img/logo.jpg" alt="Logo D&D">
             </div>
         </div>
+
     <script src="JavaScript/main.js" type="text/JavaScript"></script>
-    </main>
+    <script src="JavaScript/classi.js" type="text/JavaScript"></script>
+    <script src="JavaScript/razze.js" type="text/JavaScript"></script>
+    <script src="JavaScript/allineamento.js" type="text/JavaScript"></script>
+    
+</main>
 
 </body>
 

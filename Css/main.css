@@ -184,6 +184,16 @@ input:focus{
 .razza input{
     margin: 0px;
 }
+.al_buono option{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.al_neutrale option{
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.al_malvagio option{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
 
 /*Nome Giocatore*/
 .nome_giocatore{
@@ -242,6 +252,11 @@ input:focus{
 .skull i{
     color: rgb(95, 95, 95);
     margin: 5px 2px ;
+}
+.tiri_salvezza i:hover,
+.scull i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
 }
 
 /*Abilità di gioco*/
