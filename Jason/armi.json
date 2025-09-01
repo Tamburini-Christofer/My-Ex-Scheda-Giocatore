@@ -1,0 +1,43 @@
+{
+  "armi": [
+    {"nome": "Spada corta", "tipo": "leggera", "danno": "1d6", "proprietà": ["leggera"], "costo": "25 gp", "peso": "2 lb"},
+    {"nome": "Spada lunga", "tipo": "media", "danno": "1d8", "proprietà": ["versatile"], "costo": "15 gp", "peso": "3 lb"},
+    {"nome": "Ascia da battaglia", "tipo": "media", "danno": "1d8", "proprietà": ["versatile"], "costo": "10 gp", "peso": "4 lb"},
+    {"nome": "Martello da guerra", "tipo": "media", "danno": "1d8", "proprietà": ["versatile"], "costo": "15 gp", "peso": "2 lb"},
+    {"nome": "Mazza", "tipo": "media", "danno": "1d6", "proprietà": [], "costo": "5 gp", "peso": "4 lb"},
+    {"nome": "Arco corto", "tipo": "a distanza", "danno": "1d6", "proprietà": ["munizioni", "a distanza"], "costo": "25 gp", "peso": "2 lb"},
+    {"nome": "Arco lungo", "tipo": "a distanza", "danno": "1d8", "proprietà": ["munizioni", "a distanza"], "costo": "50 gp", "peso": "2 lb"},
+    {"nome": "Balestra leggera", "tipo": "a distanza", "danno": "1d8", "proprietà": ["munizioni", "a distanza", "pesante"], "costo": "25 gp", "peso": "5 lb"},
+    {"nome": "Balestra pesante", "tipo": "a distanza", "danno": "1d10", "proprietà": ["munizioni", "a distanza", "pesante", "due mani"], "costo": "50 gp", "peso": "10 lb"},
+    {"nome": "Pugnale", "tipo": "leggera", "danno": "1d4", "proprietà": ["leggera", "lancio"], "costo": "2 gp", "peso": "1 lb"}
+  ],
+  
+  "armature": [
+    {"nome": "Maglia", "CA": 12, "tipo": "leggera", "costo": "5 gp", "peso": "8 lb"},
+    {"nome": "Corazza di cuoio borchiato", "CA": 13, "tipo": "leggera", "costo": "45 gp", "peso": "13 lb"},
+    {"nome": "Maglia di maglia", "CA": 16, "tipo": "media", "costo": "75 gp", "peso": "20 lb"},
+    {"nome": "Corazza", "CA": 16, "tipo": "media", "costo": "50 gp", "peso": "20 lb"},
+    {"nome": "Piastre", "CA": 18, "tipo": "pesante", "costo": "200 gp", "peso": "65 lb"},
+    {"nome": "Scudo", "CA": 2, "tipo": "difensiva", "costo": "10 gp", "peso": "6 lb"}
+  ],
+
+  "strumenti": [
+    {"nome": "Kit da ladro", "uso": "scassinare serrature", "costo": "25 gp", "peso": "1 lb"},
+    {"nome": "Set da calligrafo", "uso": "scrittura", "costo": "10 gp", "peso": "5 lb"},
+    {"nome": "Set da falegname", "uso": "lavori di legno", "costo": "8 gp", "peso": "6 lb"},
+    {"nome": "Strumento musicale (liuto)", "uso": "intrattenimento", "costo": "35 gp", "peso": "2 lb"},
+    {"nome": "Set da calzolaio", "uso": "riparazioni", "costo": "5 gp", "peso": "5 lb"},
+    {"nome": "Kit da alchimista", "uso": "preparare pozioni", "costo": "50 gp", "peso": "8 lb"},
+    {"nome": "Kit da medico", "uso": "curare ferite", "costo": "5 gp", "peso": "3 lb"}
+  ],
+
+  "oggetti_magici": [
+    {"nome": "Pozione di guarigione", "rarità": "Comune", "tipo": "pozioni", "costo": "50 gp", "peso": "—"},
+    {"nome": "Pergamena di incantesimo", "rarità": "Comune", "tipo": "pergamene", "costo": "50 gp", "peso": "—"},
+    {"nome": "Anello della protezione", "rarità": "Raro", "tipo": "anello", "costo": "20.000 gp", "peso": "—"},
+    {"nome": "Mantello dell’invisibilità", "rarità": "Molto raro", "tipo": "mantello", "costo": "160.000 gp", "peso": "—"},
+    {"nome": "Bacchetta del fuoco", "rarità": "Non comune", "tipo": "bacchetta", "costo": "8.000 gp", "peso": "—"},
+    {"nome": "Spada magica +1", "rarità": "Non comune", "tipo": "arma magica", "costo": "8.000 gp", "peso": "—"},
+    {"nome": "Scudo magico +2", "rarità": "Raro", "tipo": "armatura magica", "costo": "20.000 gp", "peso": "—"}
+  ]
+}

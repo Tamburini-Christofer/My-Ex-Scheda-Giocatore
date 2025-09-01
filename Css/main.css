@@ -115,14 +115,13 @@ input:focus{
 #scheda_giocatore{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     gap: 8px;
 
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 4px 6px 11px 1px black;
     width: 80%;
-    height: 1200px;
     margin: 20px auto;
     padding: 20px;
 }
@@ -238,7 +237,7 @@ input:focus{
 }
 .tiri_salvezza i{
     color: red;
-    margin: 5px 2px ;
+    margin: 5px 2px;
 }
 .skull i{
     color: rgb(95, 95, 95);
